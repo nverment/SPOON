@@ -12,7 +12,7 @@ pip install -r requirements.txt
 (I made this tool for my girlfriend now that we don't live in the same city and I can't download music for her to put on her MP3 player. And she doesn't know shit about computers.)
 
 First, download all the files in here (you can just download as a .zip and extract them).
-!(images/image-56.png|348x290)
+![Screenshot](images/image-56.png)
 ![Screenshot](images/image-56.png)
 
 
@@ -20,7 +20,7 @@ Then put them in a folder - keep in mind that whatever music you download will b
 
 **For Windows:**
 Go to the folder where your files are, right-click and press 'Open in Terminal'.
-!(images/image-57.png)
+![Screenshot](images/image-57.png)
 
 **For Mac:**
 Open the 'Terminal' app and navigate to your folder (the one where you saved the tool) using the following commands:
@@ -47,16 +47,16 @@ Done!
 # Setup
 Before running, you need to open YouTube Music and log in. Right click on the page and press Inspect, or just press the F12 key.
 
-!(images/image-36.png)
+![Screenshot](images/image-36.png)
 
 Then, on your browser, go to the network tab like so. If you don't see any requests (noob translation: the little cells on the table from the images/image) just reload the page or click on something on it (like a playlist of yours). We are looking for the 'browse' request, it helps if you put the word itself on the 'filter' bar (boxed in red in the images/image below).
-!(images/image-52.png)
+![Screenshot](images/image-52.png)
 
 Click on it, and you should see something like this:
-!(images/image-53.png)
+![Screenshot](images/image-53.png)
 
 We want the **Request Headers**. Just click on the 'Raw' toggle and copy everything underneath.
-!(images/image-54.png)
+![Screenshot](images/image-54.png)
 
 Then, on the terminal run the following command:
 
@@ -65,7 +65,7 @@ ytmusicapi browser
 ```
 
 Paste everything, and as instructed, press 'Enter', then 'Ctrl+Z', then 'Enter' again.
-!(images/image-55.png)
+![Screenshot](images/image-55.png)
 
 You are good to go!
 
