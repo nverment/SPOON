@@ -12,13 +12,13 @@ pip install -r requirements.txt
 (I made this tool for my girlfriend now that we don't live in the same city and I can't download music for her to put on her MP3 player. And she doesn't know shit about computers.)
 
 First, download all the files in here (you can just download as a .zip and extract them).
-![[image-56.png|348x290]]
+![[images/image-56.png|348x290]]
 
 Then put them in a folder - keep in mind that whatever music you download will be saved to a subfolder of the current one. 
 
 **For Windows:**
 Go to the folder where your files are, right-click and press 'Open in Terminal'.
-![[image-57.png|347x328]]
+![[images/image-57.png|347x328]]
 
 **For Mac:**
 Open the 'Terminal' app and navigate to your folder (the one where you saved the tool) using the following commands:
@@ -45,16 +45,16 @@ Done!
 # Setup
 Before running, you need to open YouTube Music and log in. Right click on the page and press Inspect, or just press the F12 key.
 
-![[image-36.png]]
+![[images/image-36.png]]
 
-Then, on your browser, go to the network tab like so. If you don't see any requests (noob translation: the little cells on the table from the image) just reload the page or click on something on it (like a playlist of yours). We are looking for the 'browse' request, it helps if you put the word itself on the 'filter' bar (boxed in red in the image below).
-![[image-52.png]]
+Then, on your browser, go to the network tab like so. If you don't see any requests (noob translation: the little cells on the table from the images/image) just reload the page or click on something on it (like a playlist of yours). We are looking for the 'browse' request, it helps if you put the word itself on the 'filter' bar (boxed in red in the images/image below).
+![[images/image-52.png]]
 
 Click on it, and you should see something like this:
-![[image-53.png|606x312]]
+![[images/image-53.png|606x312]]
 
 We want the **Request Headers**. Just click on the 'Raw' toggle and copy everything underneath.
-![[image-54.png|412x205]]
+![[images/image-54.png|412x205]]
 
 Then, on the terminal run the following command:
 
@@ -63,7 +63,7 @@ ytmusicapi browser
 ```
 
 Paste everything, and as instructed, press 'Enter', then 'Ctrl+Z', then 'Enter' again.
-![[image-55.png|683x165]]
+![[images/image-55.png|683x165]]
 
 You are good to go!
 
