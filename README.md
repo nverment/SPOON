@@ -13,8 +13,6 @@ pip install -r requirements.txt
 
 First, download all the files in here (you can just download as a .zip and extract them).
 ![Screenshot](images/image-56.png)
-![Screenshot](images/image-56.png)
-
 
 Then put them in a folder - keep in mind that whatever music you download will be saved to a subfolder of the current one. 
 
