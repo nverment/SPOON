@@ -1,5 +1,7 @@
 Spoon is a tool to help you seamlessly leave Spotify. It can transfer your existing playlists to YouTube Music, if you are into that sort of thing, download them locally and automatically rename and tag them so they look nice and clean in your new Mp3 player :).  
 
+(I made this tool for my girlfriend now that we don't live in the same city and I can't download music for her to put on her MP3 player. And she doesn't know shit about computers. Hence the big tutorial. <33)
+
 # Installation
 ## For tech people
 Just clone the directory. Keep in mind that in the current version of the tool, any music you download will be saved in a subdirectory of the current one. You need to have Python installed (of course), so do that first. Then, in the same directory, run the following command:
@@ -9,8 +11,6 @@ pip install -r requirements.txt
 ```
 
 ## For noobs
-(I made this tool for my girlfriend now that we don't live in the same city and I can't download music for her to put on her MP3 player. And she doesn't know shit about computers.)
-
 First, download all the files in here (you can just download as a .zip and extract them).
 ![Screenshot](images/image-56.png)
 
